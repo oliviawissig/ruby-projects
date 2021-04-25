@@ -8,7 +8,6 @@
 def bubble_sort(arr)
   temp_arr = []
   arr.each{|x| temp_arr << x }
-  sorted = false
   
   until temp_arr.length == 1 do
     temp_arr.each_with_index do |x, index|
